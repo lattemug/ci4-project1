@@ -1,0 +1,45 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+body    {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.v-6x {
+    height: 650px;
+}
+
+.v-100 {
+    height: 100vh;
+}
+
+.h-9x {
+    max-width: 90vw;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.right{
+    float: right;
+}
+
+tbody {
+    overflow-y: auto;    /* Trigger vertical scroll    */
+    overflow-x: auto;  /* Hide the horizontal scroll */
+}
